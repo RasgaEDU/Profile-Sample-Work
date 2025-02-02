@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+      <title> Alessandro Rasgattino</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Redacted+Script:wght@300;400;700&display=swap" rel="stylesheet">
+    
+      <style>
+        body {
+          font-family: Raleway, sans-serif;
+          font-size: 17px;
+          margin: 0;
+        }
+
+        header {
+          background-color: #7a0019;
+          color: white;
+
+          padding: 1em 0;
+          
+          text-align: center;
+        }
+
+        header img{
+          height: 100px;
+          width: auto;
+          border-radius: 50%;
+          vertical-align: middle;
+        }
+        
+        main {
+          background-color: white;
+          color: black;
+        }
+
+          section {
+            padding: 10px;
+          }
+
+        h1, h2{
+          text-align: center;
+          font-family: Raleway, Helvetica, Arial, sans-serif;
+        }
+
+        article{
+          border: 1px solid lavender;
+          background-color: ghostwhite;
+          padding: lem;
+        }
+
+        nav{
+          text-align: center;
+        }
+      
+        figure {
+          /*
+          margin-top: 0;
+          margin-bottom: lem;
+          margin-left: 0;
+          margin-right: 0;
+          */
+          margin: 1em 0;
+        }
+      
+        figure img {
+          display: block;
+          
+          max-width: 100%;
+          height: auto;
+
+          /*
+          margin-top: 0;
+          margin-bottom: lem;
+          margin-left: auto;
+          margin-right: auto;
+          */
+          
+          margin: 0 auto; /* center it*/
+          }
+        
+        footer {
+          background-color: dimgrey;
+          color: white;
+          padding: 2em 0;
+          text-align: center;
+          
+        }
+        footer a {
+          color: white;
+        }
+
+        @media only screen and (min-width:800px) {
+          .columns {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 1em;
+            row-gap: 1em;
+          }
+
+          footer{
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            column-gap: 1em;
+
+            text-align: left;
+            padding: 2em 15%;
+          }
+            footer>* {
+              align-self: center;
+            }
+          
+        }
+      </style>
+  </head>
+  <body>
+
+
+    <header>
+      <img src="photo.jpg" alt="Alessandro Rasgattino">
+      Alessandro Rasgattino
+    </header>
+
+    <main>
+      <section>
+        <h1>Key Skills</h1>
+
+        <div class="columns">
+          
+        <div>
+        <h2>Technologies</h2>
+        <ul>
+          <li>HTML and CSS</li>
+          <li>Markdown</li>
+          <li>Docs and Code</li>
+          <li>Book interiors</li>
+          <li>DITA</li>
+          </ul>
+       </div>
+
+        <div>
+          <h2>Tools</h2>
+          
+          <ul>
+              <li>GitHub</li>
+              <li>Scribus</li>
+              <li>LibreOffice</li>
+              <li>Oxygen XML Editor</li>
+              <li>Visual Studio Code</li>
+            </ul>
+          </div>
+
+        </div>
+      </section>
+      
+      <section>
+        <h1>My Projects</h1>
+
+      <div class="columns">
+
+      <article>
+        <h2>DITA project</h2>
+        <p> During my time at the UMN, I learned how to write with digital technologies, including how to <em>reuse and remix content </em> using DITA. Here's a project that shows what I learned</p>
+        
+            <nav><a href="dita.html">See my project</a></nav>
+
+        <figure>
+          <img src = "screenshot.jpg" alt="screenshot of DITA project">
+        </figure>
+      </article>
+
+       <article>
+        <h2>Book interior</h2>
+        <p>I know how to format a book interior with right/left pages, page headers and footer, table for contents, core pages, and other elements in a professional book interior. Here's a sample of what I can do:</p>
+
+       <nav><a href="book.pdf">Download a sample</a></nav>
+
+
+        <figure>
+          <img src = "screenshot.jpg" alt="screenshot of DITA project">
+        </figure>
+      </article>
+        
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p> I am a soon-to-be graduate from the University of Minnesota Technical Writing program. I am seeking an internship where I can apply my love of technical writing</p>
+
+      <nav>
+        <a href="mailto:alessandrorasga@gmail.com"> Alessandro Rasgattino</a>
+        <a href="www.linkedin.com/in/alessandro-rasgattino">(LinkedIn)</a>
+      </nav>
+    </footer>
+    
+  </body>
+</html>
